@@ -5,3 +5,18 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news__list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+   
+}
+.news__item {
+
+    list-style-type:none;
+    border-top: 6px solid green;
+    box-shadow: 5px 5px 5px 5px rgb(177, 180, 176);
+    border-radius: 6px;
+    padding: 3px;
+}
